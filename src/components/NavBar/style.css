@@ -1,0 +1,58 @@
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  text-decoration: underline;
+  color: #2A77AE;
+  margin-bottom: 50px;
+}
+
+.correct {
+  -webkit-animation-name: greenFlash; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+  animation-name: greenFlash;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes greenFlash {
+  0%   {color:green;}
+  25%   {color:white;}
+  25%   {color:green;}
+  100% {color:white;}
+}
+
+/* Standard syntax */
+@keyframes greenFlash {
+  0%   {color:green;}
+  25%   {color:white;}
+  25%   {color:green;}
+  100% {color:white;}
+}
+
+.incorrect {
+  -webkit-animation-name: redFlash; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+  animation-name: redFlash;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes redFlash {
+  0%   {color:red;}
+  25%   {color:white;}
+  25%   {color:red;}
+  100% {color:white;}
+}
+
+/* Standard syntax */
+@keyframes redFlash {
+  0%   {color:red;}
+  25%   {color:white;}
+  25%   {color:red;}
+  100% {color:white;}
+}
