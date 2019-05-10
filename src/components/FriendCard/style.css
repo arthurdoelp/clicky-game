@@ -1,6 +1,6 @@
 .card {
   background: #fff;
-  border-radius: 2px;
+  border-radius: 6px;
   height: 200px;
   padding: 3px;
   margin: 1rem;
@@ -20,13 +20,14 @@
   height: 100%;
   overflow: hidden;
   text-align: center;
-  background:#6CADDC;
+  background:white;
 }
 .card > .img-container > img {
-  width: 60%
+  margin-top: 5%;
+  width: 90%;
 }
 
-.card > .remove {
+/* .card > .remove {
   color: #ff1744;
   font-size: 48px;
   position: absolute;
@@ -37,4 +38,4 @@
 
 .card > .remove:hover {
   color: #d50000;
-}
+} */

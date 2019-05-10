@@ -9,7 +9,7 @@ import "./style.css";
 function NavBar(props) {
   return (
     <div>
-      <nav class="navbar fixed-top navbar-light bg-light">
+      <nav class="navbar fixed-top">
         <a class="navbar-brand" href="/">Clicky Game</a>
         <h5 className={props.guess ? "correct" : "incorrect"}>{props.message}</h5>
         <h5>Score: {props.score} | Top Score: {props.highScore}</h5>

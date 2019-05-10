@@ -1,10 +1,12 @@
-.title {
+.navbar {
   width: 100%;
-  text-align: center;
-  font-size: 3rem;
-  text-decoration: underline;
-  color: #2A77AE;
+  background-color: #398561;
   margin-bottom: 50px;
+  color: white
+}
+
+.navbar a {
+  color: white;
 }
 
 .correct {
